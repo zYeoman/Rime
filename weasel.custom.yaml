@@ -1,0 +1,23 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Sat Jul  6 22:01:59 2019"
+  rime_version: 1.5.3
+patch:
+  style:
+    layout:
+      border: 0
+      border_height: 0
+      border_width: 0
+      margin_y: 6
+    color_scheme: brisk
+    corner_radius: 1
+    font_point: 13
+    font_face: "Segoe UI"
+    horizontal: true
+    inline_preedit: true
+    line_spacing: 5
+    spacing: 10
+    display_tray_icon: false
+  "preset_color_schemes/brisk/border_color": 0xcfcfcf

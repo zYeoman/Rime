@@ -1,0 +1,19 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Sat Jul  6 14:36:21 2019"
+  rime_version: 1.5.3
+patch:
+  "ascii_composer/switch_key":
+    Caps_Lock: noop
+    Control_L: noop
+    Control_R: noop
+    Shift_L: commit_code
+    Shift_R: commit_code
+  "menu/page_size": 7
+  schema_list:
+    - {schema: luna_pinyin_simp}
+    - {schema: 20k_en}
+  "switcher/hotkeys":
+    - "Control+Alt+0"
