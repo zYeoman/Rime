@@ -3,6 +3,7 @@ patch:
   translator:
     dictionary: mickir
     enable_sentence: false
+    enable_user_dict: true
     preedit_format:
       - "xform/'//"
   "switches/@0/reset": 1  #表示将 switcher 列表中的第一个元素（即 ascii_mode 开关）的初始值重设为状态1（即“英文”）。
@@ -29,7 +30,7 @@ patch:
       uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
       url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
       punct: "^/([a-z]+|[0-9]0?)$"
-  
+
   # 改寫拼寫運算，使得含西文的詞彙（位於 luna_pinyin.cn_en.dict.yaml 中）不影響簡拼功能（注意，此功能只適用於朙月拼音系列方案，不適用於各類雙拼方案）
   # 本條補靪只在「小狼毫 0.9.30」、「鼠鬚管 0.9.25 」、「Rime-1.2」及更高的版本中起作用。
   # "speller/algebra/@before 0": xform/^([b-df-hj-np-tv-z])$/$1_/
