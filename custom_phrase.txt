@@ -18,3 +18,8 @@
 
 中州韻輸入法引擎	rime	3
 Rime Input Method Engine	rime	2
+AB型血	abxingxue
+A型血	axingxue
+B型血	bxingxue
+DNA	dna
+O型血	oxingxue
