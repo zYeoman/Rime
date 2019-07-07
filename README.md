@@ -1,5 +1,6 @@
 # Rime
 我的Rime配置
+![img.jpg](https://i.loli.net/2019/07/07/5d2168e84535996791.jpg)
 
 ## 使用
 
